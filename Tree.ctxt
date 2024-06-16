@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Tree
+comment1.params=
+comment1.target=Tree()
+comment10.params=cola
+comment10.target=void\ mirarArbol(Cola)
+comment2.params=data
+comment2.target=Tree(java.lang.Object)
+comment3.params=
+comment3.target=boolean\ vacia()
+comment4.params=data
+comment4.target=void\ insertarSimple(java.lang.Object)
+comment5.params=padre\ hijo
+comment5.target=void\ insertar(java.lang.Object,\ java.lang.Object)
+comment6.params=padre\ hijo\ cola
+comment6.target=void\ insertar(java.lang.Object,\ java.lang.Object,\ Cola)
+comment7.params=dato\ ruta
+comment7.target=void\ insertarRuta(java.lang.Object,\ ListaSE)
+comment8.params=dato\ ruta\ cola
+comment8.target=void\ insertarRuta(java.lang.Object,\ ListaSE,\ Cola)
+comment9.params=
+comment9.target=void\ mirarArbol()
+numComments=11

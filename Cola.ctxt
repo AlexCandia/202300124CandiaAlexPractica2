@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Cola
+comment1.params=
+comment1.target=Cola()
+comment2.params=
+comment2.target=boolean\ vacia()
+comment3.params=dato
+comment3.target=void\ encolar(java.lang.Object)
+comment4.params=
+comment4.target=java.lang.Object\ decolar()
+comment5.params=
+comment5.target=void\ decolar2()
+comment6.params=
+comment6.target=java.lang.Object\ ver()
+comment7.params=
+comment7.target=int\ size()
+comment8.params=p
+comment8.target=int\ size(NodoDE)
+numComments=9
