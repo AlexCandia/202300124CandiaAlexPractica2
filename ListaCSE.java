@@ -20,19 +20,16 @@ public class ListaCSE<Integer>
         }
         return res; 
     }
-    private NodoSE<Integer> buscar(NodoSE<Integer> nodo,int dato){
-        NodoSE<Integer> res;
-        if(nodo.getDato()==dato){
-           res=nodo; 
+    private NodoSE<Integer> buscar(NodoSE<Integer> nodo,int pos){
+        NodoSE<Integer> q;
+        if(pos==0){
+            q=nodo;
         }else{
-            if(nodo.getSuc()==ini){
-              res=null;
-            }else{
-               res=buscar(nodo.getSuc(),dato); 
-            }
+            q=buscar(nodo.getSuc(),pos-1);
         }
-        return res;
+        return q;
     }
+    
     public boolean vacia(){
         return ini==null;
     }
@@ -69,10 +66,10 @@ public class ListaCSE<Integer>
             }   
         }
     }
-    public void swap(int dato1,int dato2){
+    public void swap(int pos1,int pos2){
         NodoSE<Integer> p,q,r,s,a,b;
-        p=buscar(ini,dato1);
-        r=buscar(ini,dato2);
+        p=buscar(ini,pos1);
+        r=buscar(ini,pos2);
         if(p!=null && r!=null){
             if(p==ini){
                 q=buscarNA(p,ini);
